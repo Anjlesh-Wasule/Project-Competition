@@ -1,0 +1,29 @@
+.customer-table{
+    color: white;
+    text-decoration: none;
+}
+.Food-price-black{
+    color: black; font-weight: 500; font-size: 20px;
+}
+
+.Food-price-white{
+    color: white; font-weight: 500; font-size: 20px;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #825534, #000103, #7a382f);
+    /* background: linear-gradient(300deg, #84ed79, #ffa9b6, #63ecfe); */
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
